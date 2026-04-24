@@ -10,7 +10,7 @@ spaces so they are URL-safe without any encoding.
 
 Manual update steps:
 
-1. In GitHub, open `/home/runner/work/RadConnect.github.io/RadConnect.github.io/assets/files/` in the repository as `assets/files/`.
+1. In GitHub, open the `assets/files/` folder in this repository.
 2. Upload replacement PDFs with the exact same filenames listed above.
 3. If GitHub asks whether to replace the existing files, confirm the replacement.
 4. Commit the changes to the branch that is deployed or to a PR branch.
