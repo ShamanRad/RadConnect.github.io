@@ -1,0 +1,10 @@
+{
+  "name": "Radoslav Dohr",
+  "short_name": "RadConnect",
+  "description": "Software Developer / .NET Developer – CV & Contact",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f4ff",
+  "theme_color": "#1a56db",
+  "icons": []
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Radoslav Dohr – Software Developer / .NET Developer. Download CV, Cover Letter, connect on LinkedIn." />
+  <meta name="theme-color" content="#1a56db" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Radoslav Dohr – Software Developer" />
+  <meta property="og:description" content="Software Developer / .NET Developer. Download CV and Cover Letter, connect on LinkedIn." />
+  <meta property="og:url" content="https://shamanrad.github.io/RadConnect.github.io/" />
+
+  <title>Radoslav Dohr – Software Developer</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="site.webmanifest" />
+  <!-- SVG favicon – monogram, consistent across all browsers -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231a56db'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='16' fill='%23ffffff'>RD</text></svg>" />
+</head>
+<body>
+  <main class="card">
+    <!-- Profile header -->
+    <header class="profile">
+      <div class="avatar" aria-hidden="true">RD</div>
+      <h1>Radoslav Dohr</h1>
+      <p class="headline">Software Developer&nbsp;/&nbsp;.NET Developer</p>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro" aria-label="About me">
+      <p>
+        Customer support professional with experience in Microsoft Advertising support,
+        team guidance, and service operations, now actively expanding into
+        technology-focused work. I am motivated by learning, excited by coding, and
+        drawn to practical innovation. Alongside my professional background, I am
+        studying HTML, C#, and Python, building my own app concept, and using
+        AI-assisted tools to turn ideas into working solutions.
+      </p>
+    </section>
+
+    <!-- Documents -->
+    <section class="section" aria-label="Documents">
+      <h2>Documents</h2>
+      <a class="btn btn-primary"
+         href="assets/files/Radoslav_Dohr_CV_Hannover.pdf"
+         download="Radoslav_Dohr_CV.pdf">
+        📄 Download CV
+      </a>
+      <a class="btn btn-secondary"
+         href="assets/files/Radoslav_Dohr_Cover_Letter_Hannover.pdf"
+         download="Radoslav_Dohr_Cover_Letter.pdf">
+        📝 Download Cover Letter
+      </a>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" aria-label="Best ways to contact me">
+      <h2>Best ways to contact me</h2>
+      <a class="btn btn-linkedin"
+         href="https://www.linkedin.com/in/radoslav-momcharov-27605315a/"
+         target="_blank"
+         rel="noopener noreferrer">
+        🔗 Connect on LinkedIn
+      </a>
+      <a class="btn btn-email"
+         href="mailto:radoslav.dohr@gmail.com">
+        ✉️ Send me an email
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Radoslav Dohr</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
